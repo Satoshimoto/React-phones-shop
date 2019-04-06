@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/React-phones-shop/static/media/iphoneXS.9472bc19.png"
   },
   {
-    "revision": "450df8090eda82b9b737",
-    "url": "/React-phones-shop/static/css/main.9792f4b9.chunk.css"
+    "revision": "3e161e8e50292cfe1b66",
+    "url": "/React-phones-shop/static/css/main.00490df0.chunk.css"
   },
   {
     "revision": "e7c2f31ca4b8923aa4b3",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/React-phones-shop/static/media/pixel3.1b252140.png"
   },
   {
-    "revision": "450df8090eda82b9b737",
+    "revision": "3e161e8e50292cfe1b66",
     "url": "/React-phones-shop/static/js/main.77157c55.chunk.js"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/React-phones-shop/static/media/galaxy_s10.5ed754a6.png"
   },
   {
-    "revision": "ca1d9105deab0e96c9ad4c86f2f2a6cb",
+    "revision": "c43c7717c9f418c216e4dce77b5f38d0",
     "url": "/React-phones-shop/index.html"
   }
 ];
