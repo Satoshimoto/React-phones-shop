@@ -3,3 +3,4 @@ src/App.css/* linguist-vendored
 src/styles/Navigation.scss/* linguist-vendored
 src/styles/Cart.scss/* linguist-vendored
 src/styles/HomePage.scss/* linguist-vendored
+static/css/* linguist-vendored
