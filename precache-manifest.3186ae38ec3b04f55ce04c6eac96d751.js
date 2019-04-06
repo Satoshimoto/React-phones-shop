@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/React-phones-shop/static/media/galaxy_s10.5ed754a6.png"
   },
   {
-    "revision": "06694394bfc5980b0f70e5313ceded16",
+    "revision": "85b9d8738e5112987bc4954cec2a0610",
     "url": "/React-phones-shop/index.html"
   }
 ];
