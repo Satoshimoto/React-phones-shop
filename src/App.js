@@ -299,7 +299,7 @@ class App extends Component {
       />
     ));
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <nav>
           <Navigation />
         </nav>
