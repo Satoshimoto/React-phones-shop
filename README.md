@@ -1,6 +1,8 @@
-#Phones shop created in React.
+# Phones shop created in React.
 ---
 ### You can check this project [here](https://satoshimoto.github.io/React-phones-shop/).
+
+---
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
