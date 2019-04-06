@@ -75,8 +75,7 @@
         display: -ms-flexbox;
         display: flex;
         width: 100%;
-        background-image: -webkit-gradient(linear, left top, right top, from(#d1bed3), color-stop(#cac5e3), color-stop(#bdcdf0), color-stop(#aad7f8), to(#97e0f8));
-        background-image: linear-gradient(to right, #d1bed3, #cac5e3, #bdcdf0, #aad7f8, #97e0f8);
+        background: #ddf;
         height: 15%;
         z-index: 2;
       }
@@ -623,4 +622,45 @@
     }
   }
 
+}
+
+@media only screen and (max-height: 400px) and (max-width: 600px) {
+  .about_phone_container {
+    width: 80vw;
+    height: 320px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    .about_phone_image {
+      width: 40%;
+
+      .about_phone_image_img {
+        width: 60%;
+        margin-left: 20%;
+      }
+
+      h3 {
+        font-size: 19px;
+        margin-top: 10px;
+      }
+    }
+
+    .about_phone_info {
+      width: 40%;
+      height: 90%;
+      position: absolute;
+      left: 40%;
+
+      .about_info_container {
+        width: 100%;
+      }
+    }
+
+    button {
+      width: 30%;
+      margin-left: 35%;
+    }
+  }
 }
