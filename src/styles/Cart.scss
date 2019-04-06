@@ -1,0 +1,178 @@
+.cart_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Margarine", cursive;
+        padding-bottom: 100px;
+
+    }
+
+    .cart_phone {
+        height: 280px;
+        border-bottom: 1px solid rgb(37, 37, 151);
+        border-top: 1px solid rgb(37, 37, 151);
+        width: 50%;
+        margin: 5px auto;
+        position: relative;
+        padding-top: 50px;
+
+
+        img {
+            max-height: 65%;
+        }
+
+        .cart_price_container {
+            position: absolute;
+            bottom: 5%;
+            left: 80%;
+            -webkit-transform: translate(-80%, -5%);
+            transform: translate(-80%, -5%);
+            font-size: 30px;
+            margin: 0px;
+            width: 50%;
+            text-align: center;
+            color: rgb(18, 156, 18);
+        }
+
+        .cart_buttons_amount_container {
+
+            position: absolute;
+            bottom: 5%;
+            left: 3%;
+            -webkit-transform: translate(-3%, -5%);
+            transform: translate(-3%, -5%);
+
+            .cart_button_amount_plus,
+            .cart_button_amount_minus {
+                border: 1px solid black;
+                display: inline-block;
+                padding: 5px 10px;
+                margin-right: 2px;
+                text-align: center;
+                width: 10px;
+                cursor: pointer;
+            }
+
+            .cart_amount {
+                display: inline-block;
+                padding: 5px;
+                margin: 0px 5px;
+            }
+        }
+
+
+        .cart_description {
+            width: 70%;
+            position: absolute;
+            top: 50px;
+            left: 30%;
+            // overflow: auto;
+            overflow: scroll;
+            height: 55%;
+            border: 1px solid rgb(37, 37, 151);
+            overflow-wrap: break-word;
+
+            h4 {
+                text-align: center;
+            }
+
+            p {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+
+        .cart_remove_button {
+            position: absolute;
+            top: 2%;
+            right: 0%;
+            margin: 0px;
+            cursor: pointer;
+            line-height: 20px;
+            text-transform: uppercase;
+            font-family: "Margarine", cursive;
+            color: rgb(37, 37, 151);
+
+
+            .cart_remove_button_icon {
+                color: red;
+                font-size: 20px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .cart_finalPrice {
+        text-align: center;
+        font-size: 35px;
+        color: rgb(37, 37, 151);
+        font-family: "Margarine", cursive;
+    }
+}
+
+.cart_pay_button {
+    width: 10%;
+    padding: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Margarine", cursive;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(37, 37, 151);
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 70px;
+}
+
+
+@media only screen and (max-width:950px) {
+
+    .cart_container {
+        .cart_phone {
+            width: 80%;
+        }
+    }
+
+    .cart_pay_button {
+        width: 20%;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .cart_container {
+        .cart_phone {
+            width: 90%;
+
+            .cart_description {
+                width: 55%;
+                left: 40%;
+            }
+        }
+    }
+
+    .cart_pay_button {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .cart_container {
+        .cart_finalPrice {
+            font-size: 20px;
+        }
+    }
+
+}
