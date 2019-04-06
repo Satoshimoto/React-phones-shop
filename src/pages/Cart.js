@@ -29,6 +29,11 @@ class Cart extends React.Component {
           <div
             className="cart_button_amount_plus"
             onClick={this.props.addAmount.bind(this, phone)}
+            style={
+              phone.amount === 10
+                ? { border: "1px solid gray" }
+                : { border: "1px solid black" }
+            }
           >
             +
           </div>

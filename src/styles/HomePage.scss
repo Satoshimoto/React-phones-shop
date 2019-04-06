@@ -32,7 +32,6 @@
       -webkit-box-shadow: 1px 1px 1px 1px rgb(37, 37, 151);
       box-shadow: 1px 1px 1px 1px rgb(37, 37, 151);
 
-
       .homePage_button_addToCart {
         position: absolute;
         bottom: -15%;
@@ -60,7 +59,6 @@
       }
 
       .homePage_img {
-
         height: 50%;
         padding-top: 20%;
         -webkit-transition: 0.8s;
@@ -113,12 +111,9 @@
           color: white;
           font-weight: bold;
           display: none;
-
         }
-
       }
     }
-
   }
 }
 
@@ -152,7 +147,6 @@
     cursor: pointer;
   }
 
-
   .about_phone_image {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
@@ -165,7 +159,6 @@
     -ms-flex-direction: column;
     flex-direction: column;
 
-
     .about_phone_image_img {
       height: 70%;
       width: 50%;
@@ -177,7 +170,6 @@
       font-size: 30px;
       color: rgb(37, 37, 151);
     }
-
   }
 
   .about_phone_info {
@@ -207,6 +199,15 @@
       padding: 10px;
       padding-right: 20px;
       border: 1px solid rgb(37, 37, 151);
+      text-align: left;
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        padding: 10px;
+      }
     }
   }
 
@@ -249,24 +250,20 @@
   }
 }
 
-
 @-webkit-keyframes popupShowing {
   0% {
     display: none;
   }
-
 
   100% {
     display: block;
   }
 }
 
-
 @keyframes popupShowing {
   0% {
     display: none;
   }
-
 
   100% {
     display: block;
@@ -297,28 +294,20 @@
   }
 }
 
-
-
-@media only screen and (min-width:1171px) and (max-width: 1500px) {
+@media only screen and (min-width: 1171px) and (max-width: 1500px) {
   .about_phone_container {
     .about_phone_image {
-
       .about_phone_image_img {
         width: 60%;
         margin-left: 20%;
       }
-
     }
-
   }
 }
 
-
-@media only screen and (min-width:1071px) {
+@media only screen and (min-width: 1071px) {
   .homePage_section {
     .homePage_container {
-
-
       .homePage_phone:hover .homePage_img {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
@@ -337,25 +326,23 @@
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
       }
-
     }
   }
 }
 
-
-@media only screen and (max-width:1170px) {
+@media only screen and (max-width: 1170px) {
   .about_phone_container {
     width: 90vw;
   }
 }
 
-@media only screen and (max-width:1070px) {
+@media only screen and (max-width: 1070px) {
   .homePage_section {
     .homePage_container {
       .homePage_phone {
         -ms-flex-preferred-size: 31%;
         flex-basis: 31%;
-        margin: calc(7%/6);
+        margin: calc(7% / 6);
 
         .homePage_button_info {
           bottom: 15%;
@@ -366,13 +353,12 @@
           bottom: 15%;
           right: 0%;
         }
-
       }
     }
   }
 }
 
-@media only screen and (max-width:920px) {
+@media only screen and (max-width: 920px) {
   .about_phone_container {
     .about_phone_image {
       .about_phone_image_img {
@@ -384,20 +370,17 @@
         margin-top: 0px;
       }
     }
-
   }
 }
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width: 720px) {
   .about_phone_container {
     width: 90vw;
 
     .about_phone_image {
-
       .about_phone_image_img {
         width: 90%;
         margin: 15% 5%;
-
       }
     }
 
@@ -409,14 +392,13 @@
   }
 }
 
-@media only screen and (max-width:687px) {
+@media only screen and (max-width: 687px) {
   .homePage_section {
     .homePage_container {
       .homePage_phone {
         -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
         margin: 2.5%;
-
       }
     }
   }
@@ -430,7 +412,6 @@
     flex-wrap: wrap;
 
     .about_phone_image {
-
       .about_phone_image_img {
         width: 35%;
         margin-left: 32.5%;
@@ -443,7 +424,6 @@
         margin-top: 5%;
         margin-bottom: 0%;
       }
-
     }
 
     .about_phone_info {
@@ -463,15 +443,11 @@
 
 @media only screen and (max-width: 550px) {
   .about_phone_container {
-
-
     .about_phone_image {
-
       .about_phone_image_img {
         width: 40%;
         margin-left: 30%;
       }
-
     }
 
     .about_phone_info {
@@ -487,15 +463,12 @@
         -ms-flex-preferred-size: 70%;
         flex-basis: 70%;
         margin: 5% 15%;
-
       }
     }
   }
 
   .about_phone_container {
-
     .about_phone_image {
-
       .about_phone_image_img {
         width: 45%;
         margin-left: 27.5%;
@@ -506,15 +479,12 @@
       width: 40%;
       margin-left: 30%;
     }
-
   }
 }
 
 @media only screen and (max-width: 410px) {
   .about_phone_container {
-
     .about_phone_image {
-
       .about_phone_image_img {
         width: 50%;
         margin-left: 25%;
@@ -539,11 +509,8 @@
       font-size: 18px;
       padding: 1%;
     }
-
   }
-
 }
-
 
 @media only screen and (max-height: 620px) {
   .about_phone_container {
@@ -551,7 +518,6 @@
     height: 550px;
   }
 }
-
 
 @media only screen and (max-height: 515px) {
   .about_phone_container {
@@ -582,8 +548,6 @@
       bottom: -4%;
     }
   }
-
-
 }
 
 @media only screen and (max-height: 420px) {
@@ -621,10 +585,9 @@
       margin-bottom: 5px;
     }
   }
-
 }
 
-@media only screen and (max-height: 400px) and (max-width: 600px) {
+@media only screen and (max-height: 400px) and (max-width: 679px) {
   .about_phone_container {
     width: 80vw;
     height: 320px;
@@ -637,8 +600,8 @@
       width: 40%;
 
       .about_phone_image_img {
-        width: 60%;
-        margin-left: 20%;
+        width: 55%;
+        margin-left: 22.5%;
       }
 
       h3 {
